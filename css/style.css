@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin:0 auto;
+    width: 1230px;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+display: grid;
+grid-template-columns: 200px 870px 150px;
+align-items: center;
+   
+}
+.logo{
+    display: inline;
+}
+.logo img{
+    width: 50%;
+}
+nav{
+
+}
+nav ul{
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+nav ul li a{
+    font-size:18px;
+    color:#000;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color: rgb(214, 37, 37);
+
+  
+}
+.shopping_cart ul li{
+    display: inline-block;
+}
+.shopping_cart ul li a i{
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+
+}
+.shopping_cart ul li a i:hover{
+    color: #fff;
+    background-color: black;   
+}
+.slider_baner img{
+    width: 100%;
+}
+main{
+    display: grid;
+    grid-template-columns:300px auto;
+    gap: 20px;
+    padding-top: 50px;
+}
+.sign{
+    border: 1px solid rgb(0, 0, 0);
+    
+}
+.sign h3{
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    text-align:center;
+}
+form{
+    padding: 20px;
+}
+.sign li{
+    display: inline-block;
+    margin: 10px;
+}
+.category{
+
+    border: 1px solid rgb(0, 0, 0);
+
+}
+.category h3{
+    background-color: rgb(85, 85, 85);
+    color: #fff;
+    text-align:center;
+}
+.thanhphan li{
+    list-style: none;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.thanhphan li:hover{
+    background-color: #000;
+    
+}
+.thanhphan li:hover a{
+    color: #fff;
+}
+.thanhphan li a{
+    color: #000;
+}
+.topproducts{
+    border: 1px solid rgb(0, 0, 0);
+}
+.topcategory li img{
+    width: 10%;
+}
+.topcategory li {
+    list-style: none;
+    border-bottom: 2px solid #000;
+
+}
+.topcategory li a{
+    padding: 10px;
+}
+.search input{
+    width: 50%;
+    height: 30px;
+}
+.search i{
+    
+    font-size:25px;
+}
+.producs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.products h1{
+    text-transform: uppercase;
+    font-size: 50px;
+
+}
+.card{
+    border: 2px solid #000;
+    overflow: hidden;
+    height: 330px;
+}
+.card_producs img{
+    width: 100%;
+}
+
+.card:hover button{
+ opacity: 1;
+ transform: translateY(-60px);
+ transition: 0.5s;
+}
+.card button{
+    opacity: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #000;
+}
+.card button a{
+    font-size: 20px;
+     color: #fff;
+}@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}footer{
+    margin-top: 20px;
+}
+
+
+
+.footer-distributed{
+  background: #666;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  height: 250px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #666;
+  border-radius: px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 30px;
+
+  margin-right: 17px;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+
+  .footer-distributed .footer-center i{
+    margin-left: 0;
+  }
+
+
+}.footer-icons img{
+    width: 36px;
+}.anh img{
+    width: 30px;
+    margin-right: 10px;
+}.anh{
+    margin: 0 10px;
+}.sdt img{
+    width: 40px;
+    margin-right: 10px;
+}.sdt {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 7px;
+}.sdt p{
+    font-size: 17px;
+    margin: 10px 0;
+    line-height: 50px;
+}.gmail img{
+ width: 30px; margin: 5px 10px;
+}.gmail {
+    display: flex;
+    margin-top: 5px;
+}.gmail p{
+    line-height: 40px;
+}
+
+.spct{
+    text-align: center;
+}
+.spct img{
+    width: 50%;
+}
+.anh{
+    text-align: center;
+}
+.anh img{
+    width: 70%;
+}
+.inspdanhmuc{
+    width: 40%;
+}
+.danhmuc{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.thong_bao{
+    color: green;
+}
